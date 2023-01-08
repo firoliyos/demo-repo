@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Group one">
+        <meta name="description" content="Create account to be a member.">
+        <meta name="keyword" content="tour,travel,Ethiopia,Axum,Lalibela,Gonder,Harar,Jima">
+        <meta http-equiv="refresh" content="60">
+        <meta name="Content-Type" content="text/html; charset=utf-8">
+        <link rel="icon" href="image/logo.png">
+        <title>Create Account</title>
+    </head>
+    <body bgcolor="#8c7689">
+        <head>
+            <nav>
+                <div align="center">
+                <img src="image/logo.png" alt="logo">
+            </div>
+                <hr>
+            </nav>
+        </head>
+        <main>
+            <div align="center">
+        <form action="form.html" method="post">
+            <fieldset>
+                <legend align="center">SIGN UP</legend>
+                <div>
+                    <label for ="fname">&nbsp;&nbsp;First name: </label><br>
+                    <input type="text" id="fname" name="fname" maxlength="15" autofocus placeholder="Enter your first name" required><br><br>
+                </div>
+                <div>
+                    <label for ="lname">&nbsp;&nbsp;Last name: </label><br>
+                    <input type="text" id="lname" name="lname" maxlength="15" autofocus placeholder="Enter your last name" required><br><br>
+                </div>
+                <div>
+                    <label for ="uname">&nbsp;&nbsp;User name: </label><br>
+                    <input type="text" id="uname" name="uname" maxlength="15" autofocus placeholder="User name" required><br><br>
+                </div>
+                <div>
+                    <label for="password">&nbsp;&nbsp;Password: </label><br>
+                    <input type="password" id="password" name="password" minlength="8"  autofocus placeholder="Enter password" required><br><br> 
+                </div>
+                <div>
+                    <label for="gender">&nbsp;&nbsp;Gender: </label><br>
+                    <input type="radio" name="gender" value="male">Male<br>
+                    <input type="radio" name="gender" value="female">Female<br><br>
+                </div>
+                <div>
+                    <label for="phone">&nbsp;&nbsp;Phone number: </label>
+                    <select name="phone" id="phone">
+                        <option value="+251">+251</option>
+                        <option value="+44">+44</option>
+                    </select>
+                    <input type="tel" minlength="9" autofocus placeholder="91*******"><br><br>
+                </div>
+                <div>
+                    <label for="togo">&nbsp;&nbsp;Where do you want to go?</label><br>
+                    <select name="togo" id="togo">
+                        <option value="Axum">Axum</option>
+                        <option value="Harar">Harar</option>
+                        <option value="Lalibela">Lalibela</option>
+                        <option value="Gonder">Gonder</option>
+                        <option value="Bluenile">Blue Nile</option>
+                        <option value="Ertaale">Ertaale</option>
+                        <option value="Sofomar">Sofomar</option>
+                        <option value="Ashenda">Ashenda</option>
+                        <option value="Fitche chammbelala">Fitche chammbelala</option>
+                        <option value="Meskel">Meskel</option>
+                        <option value="Timket">Timket</option>
+                        <option value="Irechha">Irechha</option>
+                    </select><br><br>
+                </div> 
+                <div>
+                    <button type="submit" value="submit">Submit</button>
+                    <button type="reset" value="reset">Reset</button><br><br>
+                </div>                  
+            </fieldset>
+        </form>
+    </div>
+        </main>
+    </body>
+</html>
